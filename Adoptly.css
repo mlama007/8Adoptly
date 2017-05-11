@@ -1,0 +1,140 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+@media (max-width: 500px) {
+  ul li {
+    width: 100%;
+  }
+}
+
+/*Header*/
+.header {
+  background-color: #30627E;
+  text-align: center;
+}
+
+.container  ul {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.container .main {
+  font-size: 28px;
+  padding: 20px 30px;
+}
+
+.header li {
+  display: inline-block;
+  color: #FFFFFF;
+  font-size: 20px;
+  padding: 20px 30px;
+}
+
+li:first-child {
+  font-size: 37px;
+  background-color: #E52364;
+ 
+}
+
+/*Jumbotron*/  
+.jumbotron {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/projects/adoptly/bg.jpg);
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+  height: 500px;
+}
+
+.jumbotron .container {
+    position: relative;
+    color: #E52364;
+    text-align: center;
+}
+
+.jumbotron .container h1 {
+    font-weight: bold;
+    font-size: 63px;
+    margin-top: 20px;
+}
+
+
+/*Supporting*/  
+.supporting {
+  padding: 30px 30px 80px;
+  text-align: center;
+}
+
+.supporting .container {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.supporting h1 {
+  color: #333;
+  font-size: 30px;
+  margin-top: 0;
+}
+
+.supporting p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  min-height: 80px;
+}
+
+.supporting a{
+  font-size: 16px;
+  color: #30627E;
+}
+
+.supporting .btn {
+  width: 200px;
+  border: 1px solid #30627E;
+  border-radius: 0px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  margin: 20px auto 60px;
+}
+
+.supporting .btn:hover {
+  color: #858585;
+  border: 1px solid #858585;
+}
+
+/*Footer*/    
+.footer {
+  background-color: #e52364;
+  color: white;
+  padding: 15px 0px;
+}
+
+.footer p {
+  margin-top: 15px;
+}
+
+.footer a{
+  background-color: #e52364;
+  color: white;
+  padding: 10px 15px;
+}
+
+.footer .col-md-10{
+  text-align: right;
+}
+
+.footer .btn:hover{
+  background-color: #EEEEEE;
+  border: 1px solid #EEEEEE;
+  color: white;
+}
